@@ -1,0 +1,21 @@
+{
+    "name": "brenelz/laravel-childthemes",
+    "description": "This package allows you to create multiple themes and only overwrite the default when you need to instead of copying entire theme.",
+    "keywords": ["laravel","themes"],
+    "authors": [
+        {
+            "name": "Brenley Dueck",
+            "email": "brenelz@brenelz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Brenelz\\Childthemes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
