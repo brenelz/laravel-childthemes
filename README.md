@@ -13,7 +13,7 @@ For example you could have the following directory structure.
   - master.blade.php
 
 In this case if you have the DefaultTheme as the default, and the HolidayTheme as the active - 
-it will render the brand new master page but keep the index and contact views untouched.
+it will render the HolidayTheme master page but keep the index and contact views untouched from the DefaultTheme.
 
 It is as easy as adding this package to your composer.json (brenelz/laravel-childthemes) and adding the following 
 Service Provider to your app.php (Brenelz\Childthemes\ChildthemesServiceProvider)
