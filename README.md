@@ -1,6 +1,6 @@
 ## Laravel Child Themes
 
-Create multiple themes in Laravel and only overwrite the default when you need to instead of copying entire theme.
+Create multiple themes in Laravel and only overwrite the default when you need to instead of copying the entire theme.
 
 For example you could have the following directory structure.
 
