@@ -9,7 +9,10 @@ class ByHost implements ThemeSwitcher {
     public function getActiveTheme(array $themes) {
         $host = str_replace('www.','',@$_SERVER['HTTP_HOST']);
 
-        foreach( $themes as $theme=>$domains) {
+
+        foreach( $themes as $theme=>$config) {
+            $domains = $config['domains'];
+
             if(in_array($host,$domains)) return $theme;
             if(in_array('www.'.$host,$domains)) return $theme;
         }
